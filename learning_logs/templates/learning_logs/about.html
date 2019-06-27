@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<body>
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+    <h2>About Learning Log</h2>
+{% endblock header %}
+
+{% block content %}
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>Take notes!</h3>
+        </div>
+        <div class="panel-body">
+            <p>
+                You can takes notes on any subject you are learning about.
+            </p>
+            <p>
+                This site was done as a coding tutorial from <a href="https://amzn.to/2xcqXaN">
+                Python Crash Course
+            </a>
+                by Eric Matthes.
+            </p>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3>About Me</h3>
+        </div>
+        <div class="panel-body">
+            <p>
+                My name is Carl Zimmerman. I am a software developer located in Philadelphia, PA.
+                You can find some of my projects on <a href="https://github.com/caz-iii">GitHub</a>, and my work
+                experience on <a href="https://www.linkedin.com/in/carl-zimmerman-788930186">LinkedIn</a>.
+            </p>
+        </div>
+    </div>
+
+{% endblock content %}
+</body>
+</html>
